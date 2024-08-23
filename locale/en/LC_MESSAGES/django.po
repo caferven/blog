@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 14:16+0200\n"
+"POT-Creation-Date: 2024-08-23 16:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: blog/models.py:9
+msgid "Title"
+msgstr ""
+
+#: blog/models.py:10
+msgid "Content"
+msgstr ""
+
 #: blog/templates/blog/about.html:4
 msgid "About Page"
 msgstr ""
@@ -110,12 +119,20 @@ msgstr ""
 msgid "Create Post"
 msgstr ""
 
+#: blog/templates/blog/post_form.html:15
+msgid "Post"
+msgstr ""
+
 #: core/settings.py:121
 msgid "Spanish"
 msgstr ""
 
 #: core/settings.py:122
 msgid "English"
+msgstr ""
+
+#: users/models.py:9
+msgid "Image"
 msgstr ""
 
 #: users/templates/users/login.html:10
