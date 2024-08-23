@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-23 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: blog/templates/blog/about.html:4
+msgid "About Page"
+msgstr "Acerca"
+
+#: blog/templates/blog/base.html:29
+msgid "Home"
+msgstr "Inicio"
+
+#: blog/templates/blog/base.html:30 blog/views.py:64
+msgid "About"
+msgstr "Acerca"
+
+#: blog/templates/blog/base.html:35
+msgid "New Post"
+msgstr "Nueva publicación"
+
+#: blog/templates/blog/base.html:36
+msgid "Profile"
+msgstr "Perfil"
+
+#: blog/templates/blog/base.html:37
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: blog/templates/blog/base.html:39 users/templates/users/login.html:15
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: blog/templates/blog/base.html:40
+msgid "Register"
+msgstr "Registrarse"
+
+#: blog/templates/blog/base.html:62
+msgid "Other content"
+msgstr "Otro contenido"
+
+#: blog/templates/blog/base.html:66
+msgid "My Posts"
+msgstr "Mis publicaciones"
+
+#: blog/templates/blog/base.html:68
+msgid "Announcements"
+msgstr "Anuncios"
+
+#: blog/templates/blog/base.html:69
+msgid "Calendars"
+msgstr "Calendarios"
+
+#: blog/templates/blog/home.html:21
+msgid "First"
+msgstr "Primera"
+
+#: blog/templates/blog/home.html:22 blog/templates/blog/user_posts.html:23
+msgid "Previous"
+msgstr "Anterior"
+
+#: blog/templates/blog/home.html:34 blog/templates/blog/user_posts.html:35
+msgid "Next"
+msgstr "Siguiente"
+
+#: blog/templates/blog/home.html:35 blog/templates/blog/user_posts.html:36
+msgid "Last"
+msgstr "Última"
+
+#: blog/templates/blog/post_confirm_delete.html:9
+msgid "Delete Post"
+msgstr "Borrar publicación"
+
+#: blog/templates/blog/post_confirm_delete.html:11
+msgid "Are you sure you want to delete the post "
+msgstr "¿Seguro que quieres eliminar la publicación"
+
+#: blog/templates/blog/post_confirm_delete.html:14
+msgid "Yes, Delete"
+msgstr "Sí, eliminar"
+
+#: blog/templates/blog/post_confirm_delete.html:15
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: blog/templates/blog/post_detail.html:14
+#: users/templates/users/profile.html:25
+msgid "Update"
+msgstr "Actualizar"
+
+#: blog/templates/blog/post_detail.html:15
+msgid "Delete"
+msgstr "Eliminar"
+
+#: blog/templates/blog/post_form.html:10
+msgid "Create Post"
+msgstr "Crear publicación"
+
+#: core/settings.py:121
+msgid "Spanish"
+msgstr "Español"
+
+#: core/settings.py:122
+msgid "English"
+msgstr "Inglés"
+
+#: users/templates/users/login.html:10
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+#: users/templates/users/login.html:17
+msgid "Forgot Password?"
+msgstr "¿Has olvidado la contraseña?"
+
+#: users/templates/users/login.html:23
+msgid "Need An Account?"
+msgstr "¿Necesitas una cuenta?"
+
+#: users/templates/users/login.html:23
+msgid "Sign Up Now"
+msgstr "Regístrate ahora"
+
+#: users/templates/users/logout.html:6
+msgid "You have been logged out."
+msgstr "Se ha cerrado la sesión."
+
+#: users/templates/users/logout.html:9
+msgid "Log In Again"
+msgstr "Inicia sesión de nuevo"
+
+#: users/templates/users/password_reset.html:10
+#: users/templates/users/password_reset_confirm.html:10
+#: users/templates/users/password_reset_confirm.html:15
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+#: users/templates/users/password_reset.html:15
+msgid "Request Password Reset"
+msgstr "Petición para restablecer contraseña"
+
+#: users/templates/users/password_reset_complete.html:5
+msgid "Your password has been set successfully."
+msgstr "La contraseña ha sido actualizada correctamente."
+
+#: users/templates/users/password_reset_complete.html:7
+msgid "Sign In Here"
+msgstr "Inicia sesión aquí"
+
+#: users/templates/users/password_reset_done.html:5
+msgid "An email has been sent with instructions to reset your password."
+msgstr ""
+"Se ha mandado un email con instrucciones para restablecer la contraseña."
+
+#: users/templates/users/profile.html:19
+msgid "Profile Info"
+msgstr "Información del perfil"
+
+#: users/templates/users/register.html:10
+msgid "Join Today"
+msgstr "Unirse ahora"
+
+#: users/templates/users/register.html:15
+msgid "Sign Up"
+msgstr "Registrarse"
+
+#: users/templates/users/register.html:20
+msgid "Already Have An Account?"
+msgstr "¿Ya tienes una cuenta?"
+
+#: users/templates/users/register.html:20
+msgid "Sign In"
+msgstr "Inicia sesión"

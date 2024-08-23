@@ -4,8 +4,9 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from users import views as user_views
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     path('register/', user_views.register, name="register"),
     path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name="login"),
@@ -16,7 +17,7 @@ urlpatterns = [
     path('password-reset-complete/', auth_views.PasswordResetCompleteView.as_view(template_name='users/password_reset_complete.html'), name="password_reset_complete"),
     path('profile/', user_views.profile, name="profile"),
     path('', include('blog.urls')),
-]
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
