@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-23 14:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: blog/templates/blog/about.html:4
+msgid "About Page"
+msgstr ""
+
+#: blog/templates/blog/base.html:29
+msgid "Home"
+msgstr ""
+
+#: blog/templates/blog/base.html:30 blog/views.py:64
+msgid "About"
+msgstr ""
+
+#: blog/templates/blog/base.html:35
+msgid "New Post"
+msgstr ""
+
+#: blog/templates/blog/base.html:36
+msgid "Profile"
+msgstr ""
+
+#: blog/templates/blog/base.html:37
+msgid "Logout"
+msgstr ""
+
+#: blog/templates/blog/base.html:39 users/templates/users/login.html:15
+msgid "Login"
+msgstr ""
+
+#: blog/templates/blog/base.html:40
+msgid "Register"
+msgstr ""
+
+#: blog/templates/blog/base.html:62
+msgid "Other content"
+msgstr ""
+
+#: blog/templates/blog/base.html:66
+msgid "My Posts"
+msgstr ""
+
+#: blog/templates/blog/base.html:68
+msgid "Announcements"
+msgstr ""
+
+#: blog/templates/blog/base.html:69
+msgid "Calendars"
+msgstr ""
+
+#: blog/templates/blog/home.html:21
+msgid "First"
+msgstr ""
+
+#: blog/templates/blog/home.html:22 blog/templates/blog/user_posts.html:23
+msgid "Previous"
+msgstr ""
+
+#: blog/templates/blog/home.html:34 blog/templates/blog/user_posts.html:35
+msgid "Next"
+msgstr ""
+
+#: blog/templates/blog/home.html:35 blog/templates/blog/user_posts.html:36
+msgid "Last"
+msgstr ""
+
+#: blog/templates/blog/post_confirm_delete.html:9
+msgid "Delete Post"
+msgstr ""
+
+#: blog/templates/blog/post_confirm_delete.html:11
+msgid "Are you sure you want to delete the post "
+msgstr ""
+
+#: blog/templates/blog/post_confirm_delete.html:14
+msgid "Yes, Delete"
+msgstr ""
+
+#: blog/templates/blog/post_confirm_delete.html:15
+msgid "Cancel"
+msgstr ""
+
+#: blog/templates/blog/post_detail.html:14
+#: users/templates/users/profile.html:25
+msgid "Update"
+msgstr ""
+
+#: blog/templates/blog/post_detail.html:15
+msgid "Delete"
+msgstr ""
+
+#: blog/templates/blog/post_form.html:10
+msgid "Create Post"
+msgstr ""
+
+#: core/settings.py:121
+msgid "Spanish"
+msgstr ""
+
+#: core/settings.py:122
+msgid "English"
+msgstr ""
+
+#: users/templates/users/login.html:10
+msgid "Log In"
+msgstr ""
+
+#: users/templates/users/login.html:17
+msgid "Forgot Password?"
+msgstr ""
+
+#: users/templates/users/login.html:23
+msgid "Need An Account?"
+msgstr ""
+
+#: users/templates/users/login.html:23
+msgid "Sign Up Now"
+msgstr ""
+
+#: users/templates/users/logout.html:6
+msgid "You have been logged out."
+msgstr ""
+
+#: users/templates/users/logout.html:9
+msgid "Log In Again"
+msgstr ""
+
+#: users/templates/users/password_reset.html:10
+#: users/templates/users/password_reset_confirm.html:10
+#: users/templates/users/password_reset_confirm.html:15
+msgid "Reset Password"
+msgstr ""
+
+#: users/templates/users/password_reset.html:15
+msgid "Request Password Reset"
+msgstr ""
+
+#: users/templates/users/password_reset_complete.html:5
+msgid "Your password has been set successfully."
+msgstr ""
+
+#: users/templates/users/password_reset_complete.html:7
+msgid "Sign In Here"
+msgstr ""
+
+#: users/templates/users/password_reset_done.html:5
+msgid "An email has been sent with instructions to reset your password."
+msgstr ""
+
+#: users/templates/users/profile.html:19
+msgid "Profile Info"
+msgstr ""
+
+#: users/templates/users/register.html:10
+msgid "Join Today"
+msgstr ""
+
+#: users/templates/users/register.html:15
+msgid "Sign Up"
+msgstr ""
+
+#: users/templates/users/register.html:20
+msgid "Already Have An Account?"
+msgstr ""
+
+#: users/templates/users/register.html:20
+msgid "Sign In"
+msgstr ""
