@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 16:19+0200\n"
+"POT-Creation-Date: 2024-08-30 16:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,28 @@ msgstr "Contenido"
 msgid "About Page"
 msgstr "Acerca"
 
+#: blog/templates/blog/about.html:7
+msgid ""
+"\n"
+"                Blog website built with Django following <a href=\"https://"
+"github.com/CoreyMSchafer\">Corey Schafer</a>'s <a href=\"https://www.youtube."
+"com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p\">course</"
+"a>.\n"
+"                It uses his templates and CSS <a href=\"https://github.com/"
+"CoreyMSchafer/code_snippets/tree/master/Django_Blog/snippets\">snippets</"
+"a>.\n"
+"            "
+msgstr ""
+"\n"
+"                Blog creado con Django siguiendo el <a href=\"https://www.youtube."
+"com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p\">curso</"
+"a> de <a href=\"https://"
+"github.com/CoreyMSchafer\">Corey Schafer</a>.\n"
+"                Usa sus plantillas y sus <a href=\"https://github.com/"
+"CoreyMSchafer/code_snippets/tree/master/Django_Blog/snippets\">snippets</"
+"a> de CSS.\n"
+"            "
+
 #: blog/templates/blog/base.html:29
 msgid "Home"
 msgstr "Inicio"
@@ -42,10 +64,6 @@ msgstr "Acerca"
 #: blog/templates/blog/base.html:35
 msgid "New Post"
 msgstr "Nueva publicación"
-
-#: blog/templates/blog/base.html:35
-msgid "Post"
-msgstr "Publicar"
 
 #: blog/templates/blog/base.html:36
 msgid "Profile"
@@ -67,15 +85,15 @@ msgstr "Registrarse"
 msgid "Other content"
 msgstr "Otro contenido"
 
-#: blog/templates/blog/base.html:66
+#: blog/templates/blog/base.html:67
 msgid "My Posts"
 msgstr "Mis publicaciones"
 
-#: blog/templates/blog/base.html:68
+#: blog/templates/blog/base.html:70
 msgid "Announcements"
 msgstr "Anuncios"
 
-#: blog/templates/blog/base.html:69
+#: blog/templates/blog/base.html:71
 msgid "Calendars"
 msgstr "Calendarios"
 
@@ -123,6 +141,10 @@ msgstr "Eliminar"
 #: blog/templates/blog/post_form.html:10
 msgid "Create Post"
 msgstr "Crear publicación"
+
+#: blog/templates/blog/post_form.html:15
+msgid "Post"
+msgstr "Publicar"
 
 #: core/settings.py:121
 msgid "Spanish"

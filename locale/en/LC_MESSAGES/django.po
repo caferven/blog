@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 16:19+0200\n"
+"POT-Creation-Date: 2024-08-30 16:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,19 @@ msgstr ""
 
 #: blog/templates/blog/about.html:4
 msgid "About Page"
+msgstr ""
+
+#: blog/templates/blog/about.html:7
+msgid ""
+"\n"
+"                Blog website built with Django following <a href=\"https://"
+"github.com/CoreyMSchafer\">Corey Schafer</a>'s <a href=\"https://www.youtube."
+"com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p\">course</"
+"a>.\n"
+"                It uses his templates and CSS <a href=\"https://github.com/"
+"CoreyMSchafer/code_snippets/tree/master/Django_Blog/snippets\">snippets</"
+"a>.\n"
+"            "
 msgstr ""
 
 #: blog/templates/blog/base.html:29
@@ -62,15 +75,15 @@ msgstr ""
 msgid "Other content"
 msgstr ""
 
-#: blog/templates/blog/base.html:66
+#: blog/templates/blog/base.html:67
 msgid "My Posts"
 msgstr ""
 
-#: blog/templates/blog/base.html:68
+#: blog/templates/blog/base.html:70
 msgid "Announcements"
 msgstr ""
 
-#: blog/templates/blog/base.html:69
+#: blog/templates/blog/base.html:71
 msgid "Calendars"
 msgstr ""
 
